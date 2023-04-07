@@ -64,11 +64,6 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .poisitionName {
-  display: flex;
-
-} */
-
 .button {
   display: flex;
   flex-direction: column;
