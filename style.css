@@ -40,15 +40,35 @@ h1 {
   gap: 25px;
 }
 
-.plusProfile {
+.plusBox {
   width: 160px;
   height: 160px;
   background-color: rgb(58, 57, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.plusBox:hover {
+  border: 2px solid white;
+}
+
+.plusProfile {
+  width: 70px;
+  height: 70px;
+  filter: brightness(0.5);
+}
+
+.plusProfile:hover {
+  filter: brightness(1);
 }
 
 .profileInner {
-  display: flex;
-  /* flex-direction: column; */
+  width: 160px;
+  height: 160px;
   border: 2px solid transparent;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -62,6 +82,11 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+a:hover span {
+  color: white;
 }
 
 .button {
