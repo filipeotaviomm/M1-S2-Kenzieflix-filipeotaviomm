@@ -55,20 +55,19 @@ h1 {
   border: 2px solid transparent;
   border-radius: 10px;
   margin-bottom: 15px;
+  opacity: 0.7;
+  /* filter: brightness(0.5); */
 }
 
 .plusBox:hover {
   border: 2px solid white;
+  opacity: 1;
+  /* filter: brightness(1); */
 }
 
 .plusProfile {
   width: 70px;
   height: 70px;
-  filter: brightness(0.5);
-}
-
-.plusProfile:hover {
-  filter: brightness(1);
 }
 
 .profileInner {
